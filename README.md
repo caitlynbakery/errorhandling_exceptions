@@ -23,4 +23,19 @@ void main(){
 
 For Flutter apps, assertions are enabled in Debug mode but disabled in
 Release mode. Assertions are only
-a safety net to catch runtime errors early. 
+a safety net to catch runtime errors early.
+
+## Exceptions
+
+* throw - used to send an exception which is like an error.
+
+* try/catch - the try/catch blocks are used to test if certain conditions are true. It
+throws an error in the catch block and is used for error handling.
+
+* on clause - on clause can be used to specify the type of exception you want and 
+throw a specific exception
+
+* finally - this method runs after the try/catch checks and is the 'final' thing
+inside of the try/catch
+
+* rethrow- rethrow reruns the exception and outputs it again
