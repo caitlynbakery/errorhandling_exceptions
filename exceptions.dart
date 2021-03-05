@@ -1,6 +1,7 @@
 class Fraction {
   Fraction(this.numerator, this.denominator) {
     if(denominator == 0){
+     
       throw IntegerDivisionByZeroException();
     }
   }
